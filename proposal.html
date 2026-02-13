@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Question</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="proposal-page">
+    <div class="proposal-container">
+        <div class="proposal-wrapper">
+            <div class="proposal-card">
+                <div class="proposal-header">
+                    <span class="proposal-label">pertanyaan penting</span>
+                </div>
+                
+                <h1 class="proposal-question">maukah kamu jadi valentine-ku selamanya?</h1>
+                
+                <div class="proposal-buttons">
+                    <button class="btn-yes" id="yesBtn" onclick="sayYes()">iya</button>
+                    <button class="btn-no" id="noBtn" onmouseover="moveButton()">tidak</button>
+                </div>
+                
+                <div class="celebration" id="celebration" style="display:none;">
+                    <div class="celebration-icon"></div>
+                    <h2>sempurna!</h2>
+                    <p>kamu membuat hari ini menjadi hari terbaik dalam hidupku.</p>
+                </div>
+            </div>
+            
+            <a href="final.html" class="btn-primary" id="finalBtn" style="display:none;">lanjut</a>
+        </div>
+    </div>
+    <script src="proposal.js"></script>
+</body>
+</html>
